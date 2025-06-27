@@ -1,1 +1,3 @@
 # Asset-Management-System-Turtleback-Zoo
+
+The Turtleback Zoo Management System is a full-stack web application built to streamline zoo operations. It allows administrators to manage animals, buildings, attractions, and revenue details through an intuitive web interface. Developed using Python (likely Flask), HTML templates, and CSS, it supports core functionalities like adding new records, viewing reports, and managing hourly rates. The backend is powered by a relational database defined in `dmsd_schema.sql`. This project demonstrates practical use of web technologies for administrative control in real-world scenarios like zoo management, emphasizing CRUD operations, user-friendly design, and structured data handling for effective zoo oversight.
