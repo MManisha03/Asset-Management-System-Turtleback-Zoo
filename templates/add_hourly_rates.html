@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="wrapper">
+    <div class="title">
+        Salary Management
+    </div>
+    <form action="{{ url_for('add_rate') }}" method="POST">
+        <div class="form">
+            <div class="inputfield">
+                <label >Rate ID</label>
+                <input type="text" name="Hourly_ID" class="input" required>
+            </div>  
+            <div class="inputfield">
+                <label >Hourly rate:</label>
+                <input type="text" name="rate" class="input" required>
+            </div> 
+            <div class="inputfield">
+                <button type="submit" name="Add" class="btn">Add</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

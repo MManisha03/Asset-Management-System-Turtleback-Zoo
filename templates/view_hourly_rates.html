@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<table class="table table-bordered table-hover">
+  <thead class="thead-dark">
+     <tr>
+         {% for key in data[0].keys() %}
+           <th scope="col">{{ key }}</th>
+         {% endfor %}
+     </tr>
+   </thead>
+  {% for price in data %}
+    <tr>
+          <td>{{ price.Hourly_ID }}</td>
+          <td>{{ price.rate }}</td>
+
+
+
+    </tr>
+
+  {% endfor %}
+</table>
+
+
+{% endblock %}
